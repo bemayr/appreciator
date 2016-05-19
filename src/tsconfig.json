@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowJs": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!./node_modules/**"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "index.ts",
+        "vuex/actions.ts",
+        "vuex/getters.ts",
+        "vuex/mutation-types.ts",
+        "vuex/store.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

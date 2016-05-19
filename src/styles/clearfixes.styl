@@ -1,0 +1,20 @@
+/* CSS HACKS AND CLEARFIXES */
+// This is used to reset any browser-default margins
+body {
+    margin: 0;
+}
+
+// This clearfix assures that paddings and border-sizes are added to the inside of the box by default
+* {
+    box-sizing: border-box;
+}
+
+// Clearfix for cleaning all margins except the p element
+:not(p) {
+    margin: 0;
+}
+
+// Clearfix for cleaning the default style of the table header
+th{
+    font-weight: normal;
+}
