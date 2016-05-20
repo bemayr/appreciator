@@ -12,6 +12,10 @@ You can add and up-vote your favorite applications and see what app you like the
 - [Stylus](http://stylus-lang.com/)
 - [Typescript](https://www.typescriptlang.org/)
 
+## [vue-devtools](https://github.com/vuejs/vue-devtools)
+Use vue-devtools for time-travel debugging, it's a great experience!
+![time-travel debugging](https://raw.githubusercontent.com/vuejs/vue-devtools/master/media/demo.gif)
+
 ## Build Setup ([docs for vue-loader](http://vuejs.github.io/vue-loader))
 
 ``` bash
