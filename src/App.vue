@@ -25,14 +25,8 @@ export default {
 <!-- requiring the common styles -->
 <style lang="stylus" src="./styles/common.styl"></style>
 
-<style lang="stylus">
-// common styles for the app
-</style>
-
 <style lang="stylus" scoped>
 @require("./styles/theme");
-
-
 
 #main-page {
     background: #f4f4f4;
@@ -51,7 +45,6 @@ export default {
 #header {
     align-self: center;
 }
-
 
 #list-pane {
     flex-grow: 1;

@@ -3,6 +3,7 @@ import * as Vuex from 'vuex';
 
 import { APPRECIATE_APP, ADD_APP } from "./mutation-types.ts";
 
+// use Vuex
 Vue.use(Vuex);
 
 const state = {

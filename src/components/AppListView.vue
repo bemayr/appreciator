@@ -13,6 +13,7 @@
 import * as Card from "./Card.vue";
 import * as AppView from "./AppView.vue";
 import * as NewAppView from "./NewAppView.vue";
+
 import { appreciateApp } from "../vuex/actions";
 
 export default {
@@ -21,7 +22,7 @@ export default {
             apps: state => state.apps
         },
         actions: {
-            appreciateApp
+            appreciateApp // ES2015 syntax eq to "appreciateApp: appreciateApp"
         }
     },
     components: {

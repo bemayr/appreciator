@@ -32,32 +32,4 @@
         display: none;
     }
 }
-
-
-#main-page {
-    background: #f4f4f4;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    &[max-height~="600px"]{
-        flex-direction: row;
-    }
-    > * {
-        width: inherit;
-    }
-}
-
-#list-pane {
-    flex: 3 0 0;
-}
-
-#fav-pane {
-    flex: 2 0 0;
-    background-color: accentColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 </style>

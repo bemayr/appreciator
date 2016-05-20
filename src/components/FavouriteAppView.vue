@@ -34,13 +34,14 @@ export default {
 }
 
 p {
-    color: yellow; //primaryColor;
+    color: primaryColor;
     font-weight: 300;
     text-transform: uppercase;
 }
 
 </style>
 
+<!-- global style for modifying the app-template in the favourite section -->
 <style lang="stylus">
 #favourite-app {
     .app-icon {
