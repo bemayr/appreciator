@@ -1,6 +1,6 @@
 # APPreciator
 
-> I built this app for [`Vue.js`](http://vuejs.org/) demo purposes for my talk "Vue.js in a bigger Picture". My intention was to build an app that is structured like a larger application to show how to accomplish real-world-scenarios with Vue.
+> I built this app for [`Vue.js`](http://vuejs.org/) demo purposes for my talk "[Vue.js in a bigger Picture](https://onedrive.live.com/redir?resid=454656E6698FB906!147276&authkey=!ALFdpatjDRMzZ_U&ithint=file%2cpptx)". My intention was to build an app that is structured like a larger application to show how to accomplish real-world-scenarios with Vue.
 
 ![screenshot](appreciator.png)
 
